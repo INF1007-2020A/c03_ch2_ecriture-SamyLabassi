@@ -5,6 +5,7 @@ def majuscule(mot):
     for lettre in mot:
         # TODO completer la fonction ici
         resultat = chr(ord(lettre) - 32)
+        
     return resultat
 
 
@@ -22,3 +23,5 @@ if __name__ == '__main__':
         mots[i] = majuscule(mots[i])
 
     print(mots)
+    
+    
